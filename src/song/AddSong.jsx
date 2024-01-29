@@ -58,7 +58,7 @@ export default function Formulario(){
                     <div className="col-12 col-md-8 col-lg-6 col-xl-5">
                         <div className="card shadow-2-strong" style={{borderRadius: 1 +"rem"}}>
                         <div className="card-body p-5 text-center">
-                            
+                    
                             <h3 className="mb-5">Añadir</h3>
                             <form>
                             

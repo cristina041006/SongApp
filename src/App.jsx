@@ -4,6 +4,7 @@ import GetOneSong from './song/GetSong'
 import Formulario from './song/AddSong'
 import Form from './song/UpdateSong'
 import Menu from './song/Menu';
+import Register from './user/register'
 import './index.css'
 
 export default function App(){
@@ -16,6 +17,7 @@ export default function App(){
     <Route path='/crear' element={<Formulario></Formulario>}></Route>
     <Route path='/edit/:id' element={<Formulario></Formulario>}></Route>
     <Route path='/canciones/:term' element={<GetSong></GetSong>}></Route>
+    <Route path='/register' element={<Register></Register>}></Route>
   </Route>
   </Routes>
   </BrowserRouter>

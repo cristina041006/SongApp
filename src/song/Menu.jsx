@@ -26,6 +26,9 @@ export default function Menu(){
         <li className="nav-item">
             <Link to="/canciones">Canciones</Link>
         </li>
+        <li className="nav-item">
+            <Link to="/register">Singin</Link>
+        </li>
       </ul>
       
       <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" onChange={handleChange}/>

@@ -16,7 +16,7 @@ export const getSongSearch = (term) => {
     
 
 export const getSongs = () => {
-    return apiService.get();
+    return apiService.get(`song`);
     };
 
 export const createSong = (postData) => {

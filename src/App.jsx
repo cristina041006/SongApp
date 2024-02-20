@@ -17,7 +17,7 @@ export default function App(){
     <Route path='/crear' element={<Formulario></Formulario>}></Route>
     <Route path='/edit/:id' element={<Formulario></Formulario>}></Route>
     <Route path='/canciones/:term' element={<GetSong></GetSong>}></Route>
-    <Route path='/register' element={<Register></Register>}></Route>
+    <Route path='/users' element={<Register></Register>}></Route>
   </Route>
   </Routes>
   </BrowserRouter>
